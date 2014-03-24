@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quasar.Neuron.Adaptors.GoogleSpreadSheets
 {
-    public class Class1
+    public class Shell
     {
     }
 }

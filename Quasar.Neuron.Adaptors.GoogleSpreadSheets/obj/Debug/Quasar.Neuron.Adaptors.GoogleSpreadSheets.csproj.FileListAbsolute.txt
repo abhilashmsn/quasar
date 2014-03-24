@@ -3,3 +3,8 @@ N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.GoogleSpreadSheets\
 N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.csprojResolveAssemblyReference.cache
 N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.dll
 N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.pdb
+C:\Users\shyju.samuel\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.GoogleSpreadSheets\bin\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.dll
+C:\Users\shyju.samuel\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.GoogleSpreadSheets\bin\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.pdb
+C:\Users\shyju.samuel\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.csprojResolveAssemblyReference.cache
+C:\Users\shyju.samuel\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.dll
+C:\Users\shyju.samuel\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.GoogleSpreadSheets\obj\Debug\Quasar.Neuron.Adaptors.GoogleSpreadSheets.pdb
