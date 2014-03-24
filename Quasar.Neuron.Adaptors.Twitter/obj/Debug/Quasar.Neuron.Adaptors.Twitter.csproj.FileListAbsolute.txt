@@ -1,0 +1,4 @@
+N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Quasar.Neuron.Adaptors.Twitter.dll
+N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Quasar.Neuron.Adaptors.Twitter.pdb
+N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.Twitter\obj\Debug\Quasar.Neuron.Adaptors.Twitter.dll
+N:\work\Quasar\Quasar.Neuron.Adaptors\Quasar.Neuron.Adaptors.Twitter\obj\Debug\Quasar.Neuron.Adaptors.Twitter.pdb

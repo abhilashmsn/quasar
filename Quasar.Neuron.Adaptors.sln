@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Neuron.Adaptors.Twitter", "Quasar.Neuron.Adaptors.Twitter\Quasar.Neuron.Adaptors.Twitter.csproj", "{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Neuron.Adaptors.GoogleSpreadSheets", "Quasar.Neuron.Adaptors.GoogleSpreadSheets\Quasar.Neuron.Adaptors.GoogleSpreadSheets.csproj", "{9231F440-AA7B-45EE-BB3F-4350E519E96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
