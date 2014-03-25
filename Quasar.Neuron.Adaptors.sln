@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Neuron.Adaptors.Twit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Neuron.Adaptors.GoogleSpreadSheets", "Quasar.Neuron.Adaptors.GoogleSpreadSheets\Quasar.Neuron.Adaptors.GoogleSpreadSheets.csproj", "{9231F440-AA7B-45EE-BB3F-4350E519E96A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{280B664F-9B2C-47F8-9D38-890BCE4F35FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptors", "Adaptors", "{F8D6DEB9-4B68-4282-BB26-57F330C87A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Adapter.Twitter.IntegrationTest", "Quasar.Adapter.Twitter.IntegrationTest\Quasar.Adapter.Twitter.IntegrationTest.csproj", "{1B352D6C-97C6-4049-8909-8CC145F10BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Adapter.GoogleSpreadsheets.IntegrationTest", "Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.csproj", "{AB655E98-C457-481F-BC8F-2824B6FD94A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +27,22 @@ Global
 		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9231F440-AA7B-45EE-BB3F-4350E519E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
+		{9231F440-AA7B-45EE-BB3F-4350E519E96A} = {F8D6DEB9-4B68-4282-BB26-57F330C87A26}
+		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838} = {F8D6DEB9-4B68-4282-BB26-57F330C87A26}
 	EndGlobalSection
 EndGlobal

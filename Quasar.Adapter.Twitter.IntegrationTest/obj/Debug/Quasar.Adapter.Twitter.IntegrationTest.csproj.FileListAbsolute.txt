@@ -1,0 +1,5 @@
+C:\Users\abhilash.shanmugan\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\bin\Debug\Quasar.Adapter.Twitter.IntegrationTest.dll
+C:\Users\abhilash.shanmugan\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\bin\Debug\Quasar.Adapter.Twitter.IntegrationTest.pdb
+C:\Users\abhilash.shanmugan\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.csprojResolveAssemblyReference.cache
+C:\Users\abhilash.shanmugan\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.dll
+C:\Users\abhilash.shanmugan\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.pdb
