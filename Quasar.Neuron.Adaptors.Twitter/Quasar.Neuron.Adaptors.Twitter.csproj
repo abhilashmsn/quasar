@@ -30,8 +30,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Neuron">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Neudesic\Neuron ESB v3\Neuron.dll</HintPath>
+    </Reference>
+    <Reference Include="Neuron.Esb">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Neudesic\Neuron ESB v3\Neuron.Esb.dll</HintPath>
+    </Reference>
+    <Reference Include="Neuron.Pipelines">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Neudesic\Neuron ESB v3\Neuron.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="Neuron.Scripting">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Neudesic\Neuron ESB v3\Neuron.Scripting.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Twitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
