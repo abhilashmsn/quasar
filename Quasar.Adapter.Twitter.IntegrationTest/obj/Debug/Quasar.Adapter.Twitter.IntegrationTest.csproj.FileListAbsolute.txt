@@ -8,3 +8,8 @@ C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.Twitter.Integrati
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.csprojResolveAssemblyReference.cache
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.dll
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.pdb
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.Twitter.IntegrationTest\bin\Debug\Quasar.Adapter.Twitter.IntegrationTest.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.Twitter.IntegrationTest\bin\Debug\Quasar.Adapter.Twitter.IntegrationTest.pdb
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.csprojResolveAssemblyReference.cache
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.Twitter.IntegrationTest\obj\Debug\Quasar.Adapter.Twitter.IntegrationTest.pdb

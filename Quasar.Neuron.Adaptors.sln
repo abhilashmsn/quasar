@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Adapter.Twitter.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Adapter.GoogleSpreadsheets.IntegrationTest", "Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.csproj", "{AB655E98-C457-481F-BC8F-2824B6FD94A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Neuron.Adaptors.SerialAdapter", "Quasar.Neuron.Adaptors.Serial\Quasar.Neuron.Adaptors.SerialAdapter.csproj", "{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,14 +37,19 @@ Global
 		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB655E98-C457-481F-BC8F-2824B6FD94A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1B352D6C-97C6-4049-8909-8CC145F10BE3} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
-		{AB655E98-C457-481F-BC8F-2824B6FD94A1} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
 		{9231F440-AA7B-45EE-BB3F-4350E519E96A} = {F8D6DEB9-4B68-4282-BB26-57F330C87A26}
 		{D216CB33-7D1F-4E74-97D8-6ADB4A1CA838} = {F8D6DEB9-4B68-4282-BB26-57F330C87A26}
+		{FD53A97D-CA08-4E1C-BFE9-E4AAEE512A1F} = {F8D6DEB9-4B68-4282-BB26-57F330C87A26}
+		{1B352D6C-97C6-4049-8909-8CC145F10BE3} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
+		{AB655E98-C457-481F-BC8F-2824B6FD94A1} = {280B664F-9B2C-47F8-9D38-890BCE4F35FE}
 	EndGlobalSection
 EndGlobal

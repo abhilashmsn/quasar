@@ -8,3 +8,8 @@ C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.GoogleSpreadsheet
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.csprojResolveAssemblyReference.cache
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.dll
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.pdb
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\bin\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\bin\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.pdb
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.csprojResolveAssemblyReference.cache
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest\obj\Debug\Quasar.Adapter.GoogleSpreadsheets.IntegrationTest.pdb

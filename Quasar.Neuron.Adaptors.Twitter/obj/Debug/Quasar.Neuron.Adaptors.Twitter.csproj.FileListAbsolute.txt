@@ -19,3 +19,16 @@ C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.Twitter\b
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Microsoft.ServiceBus.dll
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Xceed.FileSystem.v5.4.dll
 C:\Users\jay.prathipati\Documents\GitHub\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.Esb.XmlSerializers.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Quasar.Neuron.Adaptors.Twitter.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Quasar.Neuron.Adaptors.Twitter.pdb
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.Esb.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.Pipelines.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.Scripting.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Microsoft.ServiceBus.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\bin\Debug\Neuron.Esb.XmlSerializers.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\obj\Debug\Quasar.Neuron.Adaptors.Twitter.csprojResolveAssemblyReference.cache
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\obj\Debug\Quasar.Neuron.Adaptors.Twitter.dll
+C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Twitter\obj\Debug\Quasar.Neuron.Adaptors.Twitter.pdb
