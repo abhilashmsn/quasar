@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Neuron.Esb">
-      <HintPath>..\..\Program Files\Neudesic\Neuron ESB v3\DEFAULT\Neuron.Esb.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Neudesic\Neuron ESB v3\DEFAULT\Neuron.Esb.dll</HintPath>
     </Reference>
     <Reference Include="Neuron.Pipelines">
-      <HintPath>..\..\Program Files\Neudesic\Neuron ESB v3\DEFAULT\Neuron.Pipelines.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Neudesic\Neuron ESB v3\DEFAULT\Neuron.Pipelines.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(ProjectDir)$(OutDir)$(TargetFileName)" "C:\Program Files\Neudesic\Neuron ESB v3\DEFAULT\Adapters\$(TargetFileName)"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

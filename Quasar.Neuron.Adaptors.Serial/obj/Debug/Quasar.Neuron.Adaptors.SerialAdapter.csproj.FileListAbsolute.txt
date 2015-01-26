@@ -17,3 +17,21 @@ C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Qu
 C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Quasar.Neuron.Adaptors.Serial.pdb
 C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Serial\obj\Debug\Quasar.Neuron.Adaptors.Serial.dll
 C:\Users\Tanmoy.Sarkar\Desktop\quasar\Quasar.Neuron.Adaptors.Serial\obj\Debug\Quasar.Neuron.Adaptors.Serial.pdb
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Quasar.Neuron.Adaptors.Serial.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Quasar.Neuron.Adaptors.Serial.pdb
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Neuron.Esb.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Neuron.Pipelines.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Neuron.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Neuron.Scripting.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\RabbitMQ.Client.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Microsoft.ServiceBus.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Newtonsoft.Json.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Xceed.Zip.v5.6.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Xceed.Compression.v5.6.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Xceed.Compression.Formats.v5.6.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Xceed.FileSystem.v5.6.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\en-US\Neuron.Esb.resources.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\bin\Debug\Neuron.Esb.XmlSerializers.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\obj\Debug\Quasar.Neuron.Adaptors.Serial.dll
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\obj\Debug\Quasar.Neuron.Adaptors.Serial.pdb
+C:\Connected Systems\Neuron\Quasar\quasar\Quasar.Neuron.Adaptors.Serial\obj\Debug\Quasar.Neuron.Adaptors.SerialAdapter.csprojResolveAssemblyReference.cache

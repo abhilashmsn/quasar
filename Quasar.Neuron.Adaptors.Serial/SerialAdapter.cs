@@ -113,7 +113,6 @@ namespace Neuron.Esb.Adapters
                 /// that you do not wish to support
                // new AdapterMode(AdapterModeStringsEnum.Subscriber.Description(), MessageDirection.DatagramSender),      // subscribe mode - send messages to an SerialPort
                 new AdapterMode(AdapterModeStringsEnum.Publish.Description(), MessageDirection.DatagramReceiver),     // Receive mode - new files are obtained from SerialPort and published to the bus
-                
             };
 
             ESBAdapterCapabilities caps = new ESBAdapterCapabilities();
@@ -170,7 +169,7 @@ namespace Neuron.Esb.Adapters
             try
             {
                 // *** place clean up work here
-
+                sp.Close();
             }
             catch (Exception ex)
             {
@@ -203,15 +202,12 @@ namespace Neuron.Esb.Adapters
         {
             try
             {
-               //*****************************************************************************
-
+                //*****************************************************************************
                 PublishMessageFromSource();
-
-           
             }
             finally
             {
-
+                sp.Close();
             }
         }
 
@@ -237,48 +233,41 @@ namespace Neuron.Esb.Adapters
         private void PublishMessageFromSource()
         {
             ESBMessage message = null;
-
             try
             {
-                sp.PortName = COMPort;
-                sp.BaudRate = System.Convert.ToInt32(BaudRate);
-                sp.DiscardNull = true;
-                sp.StopBits = StopBits.One;
-                sp.Parity = Parity.None;
-
-                 try
+                try
+                {
+                    //PublishMessageFromSource - Removed if condition to check sp.IsOpen and performing a sp.Close followed by reinitialization of sp properties - this was repeating for every message received
+                    //and was causing error: 
+                    //Exception: Exception Type: System.InvalidOperationException
+                    //Exception Message: 'PortName' cannot be set while the port is open.
+                    //Moved sp reinitialization code into new condition to check, if sp is not intialized then setup all poperties and Open - one time only
+                    if (!sp.IsOpen)
                     {
-
-                        if (sp.IsOpen)
-                            sp.Close();
+                        sp.PortName = COMPort;
+                        sp.BaudRate = System.Convert.ToInt32(BaudRate);
+                        sp.DiscardNull = true;
+                        sp.StopBits = StopBits.One;
+                        sp.Parity = Parity.None;
                         sp.Open();
                     }
-                    catch (Exception ex)
-                    {
-                        sp.Close();
-
-                        message = CreateEsbMessage(ex.Message, MessageProperties, MetadataPrefix, PublishTopic);
-                        PublishEsbMessage(message);
-                    }
-
-
-
-
-                    sp.DataReceived += serialport_DataReceived;
-
-
-                
-
+                }
+                catch (Exception ex)
+                {
+                    sp.Close();
+                    message = CreateEsbMessage(ex.Message, MessageProperties, MetadataPrefix, PublishTopic);
+                    PublishEsbMessage(message);
+                }
+                sp.DataReceived += serialport_DataReceived;
             }
             catch (Exception ex)
             {
                 sp.Close();
-                string msg = string.Format(CultureInfo.InvariantCulture,"The adapter endpoint encountered an error. {0}",ex.Message);
+                string msg = string.Format(CultureInfo.InvariantCulture, "The adapter endpoint encountered an error. {0}", ex.Message);
                 String failureDetail = Helper.GetExceptionMessage(Configuration, msg, base.Name, AdapterName, base.PartyId, message, ex);
 
                 // try to audit the message
                 if (AuditOnFailurePublish && MessageAuditService != null) MessageAuditService.AuditMessage(message, ex, base.PartyId, failureDetail);
-
                 throw new Exception(failureDetail);
             }
         }
@@ -287,19 +276,24 @@ namespace Neuron.Esb.Adapters
             ESBMessage message = null;
             try
             {
-                if (!sp.IsOpen)
-                   sp.Open();
+                //serialport_DataReceived - Removed if NOT condition to check sp.IsOpen and performing a sp.Open
+                //and was causing error: 
+                //Exception: Exception Type: System.InvalidOperationException
+                //Exception Message: The port is closed. or Access to the port 'COM2' is denied.
+                //Additionally, the adapter was publising a lot of null or empty messages after the actual bytes of data were sent, causing a lot of empty messages in the bus.
+                //Added condition to check if message is null or empty and then Publish.
                 msg = sp.ReadExisting();
-                message = CreateEsbMessage(msg, MessageProperties, MetadataPrefix, PublishTopic);
-                PublishEsbMessage(message);
+                if (msg != null && msg.Trim().Length != 0)
+                {
+                    message = CreateEsbMessage(msg, MessageProperties, MetadataPrefix, PublishTopic);
+                    PublishEsbMessage(message);
+                }
                 
             }
             catch (Exception ex)
             {
-                
                 message = CreateEsbMessage(ex.Message, MessageProperties, MetadataPrefix, PublishTopic);
                 PublishEsbMessage(message);
-                
             }
 
         }
