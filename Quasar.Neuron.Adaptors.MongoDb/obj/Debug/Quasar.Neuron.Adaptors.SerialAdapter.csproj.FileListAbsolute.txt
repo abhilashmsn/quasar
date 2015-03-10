@@ -1,0 +1,15 @@
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Neuron.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Neuron.Scripting.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\RabbitMQ.Client.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Microsoft.ServiceBus.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Newtonsoft.Json.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Xceed.Zip.v5.6.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Xceed.Compression.v5.6.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Xceed.Compression.Formats.v5.6.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Xceed.FileSystem.v5.6.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\en-US\Neuron.Esb.resources.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Neuron.Esb.XmlSerializers.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Quasar.Neuron.Adaptors.Serial.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\bin\Debug\Quasar.Neuron.Adaptors.Serial.pdb
+C:\Neudesic_Tools\GitHub\AdapterFramework\obj\Debug\Quasar.Neuron.Adaptors.Serial.dll
+C:\Neudesic_Tools\GitHub\AdapterFramework\obj\Debug\Quasar.Neuron.Adaptors.Serial.pdb

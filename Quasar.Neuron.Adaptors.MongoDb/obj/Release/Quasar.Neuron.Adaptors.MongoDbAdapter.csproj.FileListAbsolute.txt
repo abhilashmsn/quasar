@@ -1,0 +1,17 @@
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Quasar.Neuron.Adaptors.MongoDb.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Quasar.Neuron.Adaptors.MongoDb.pdb
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\MongoDB.Bson.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\MongoDB.Driver.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Neuron.Esb.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Neuron.Pipelines.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Neuron.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Neuron.Scripting.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\RabbitMQ.Client.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Microsoft.ServiceBus.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Newtonsoft.Json.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\MongoDB.Bson.xml
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\MongoDB.Driver.xml
+C:\Neudesic_Tools\MongoDb\AdapterFramework\bin\Release\Neuron.Esb.XmlSerializers.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\obj\Release\Quasar.Neuron.Adaptors.MongoDb.dll
+C:\Neudesic_Tools\MongoDb\AdapterFramework\obj\Release\Quasar.Neuron.Adaptors.MongoDb.pdb
+C:\Neudesic_Tools\MongoDb\AdapterFramework\obj\Release\Quasar.Neuron.Adaptors.MongoDbAdapter.csprojResolveAssemblyReference.cache
